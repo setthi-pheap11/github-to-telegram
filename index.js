@@ -26,9 +26,9 @@ app.post('/api/webhook', async (req, res) => {
 
         const message = `
 🚀 *New Code Pushed to Main Branch*
-Repository: ${repository}
-Commit Message: ${commitMessage}
-Author: ${author}
+    -Repository: ${repository}
+    -Commit Message: ${commitMessage}
+    -Author: ${author}
         `;
 
         try {
